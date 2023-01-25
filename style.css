@@ -70,3 +70,9 @@ li {
     margin-left: 15px;
     height: 30px;
 }
+
+#footer {
+    justify-self: flex-end;
+    font-family: Libre Baskerville;
+    text-align: center;
+}
