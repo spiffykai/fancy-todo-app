@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Libre Baskerville;
+    font-size: 48pt;
+}
+
+#toDoInput {
+    height: 40px;
+    width: 250px;
+    font-family: Roboto;
+    font-size: 16pt;
+}
+
+#addButton {
+    height: 40px;
+    font-family: Roboto;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+
+#listDiv {
+    margin-top: 20px;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16pt;
+    align-self: flex-start;
+    overflow-y: auto;
+    max-height: 500px;
+    height: 500px;
+}
+
+.listElement {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.toDoCheck {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.toDoButton {
+    margin-left: 15px;
+    height: 30px;
+}
